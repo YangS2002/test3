@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>input 表单元素</title>
+    <style>
+        a{
+            background-color: aqua;
+            
+            width: 100px;
+            text-decoration: none;
+            display:block;
+        }
+    </style>
+</head>
+
+<body>
+    <h4>1.表单</h4>
+    <form action="asd.php" method="get" name="name1">
+        用户名：<input type="text" name="usrname" placeholder="请输入用户名" /><br \>
+        密码： &nbsp&nbsp<input type="password" name="paw" placeholder="密码" maxlength="10" /><br \>
+        验证码：<input type="text" /><br \>
+        <label for="sex"></label>
+        性别： <input type="radio" name="sex" id="sex"> man <input type="radio" name="sex" id="sex">woman<input
+            type="radio" name="sex" id="sex" />hide<br \>
+        爱好：1<input type="checkbox"> 同意条款 <input type="checkbox" checked><br \>
+        <input type="submit" value="submit" />
+        <input type="reset" value="还原表单元素初始的默认状态" /><br \>
+        <input type="file" />
+        <p>label标签</p>
+        <label for="text">用户名</label><input type="text" id="text"><br \>
+        性别：<label for="man">man</label><input type="radio" id="man" name="sex">
+        <label for="woman">woman</label><input type="radio" id="woman" name="sex">
+        <h4>2.下拉表单元素select</h4>
+        <select>
+            <option>山东</option>
+            <option selected>湖南</option>
+            <option>北京</option>
+            <option>天津</option>
+            <option>湖北</option>
+            <option>海南</option>
+            <option>四川</option>
+            <option>江苏</option>
+        </select>
+        <h4>3.文本域</h4>
+        今日反馈：<textarea cols="20" rows="5" placeholder="请输入50字以内"></textarea>
+    </form>
+    <a href="1.jpg">111</a>
+
+</body>
+
+</html>
